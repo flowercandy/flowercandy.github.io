@@ -1,0 +1,14 @@
+p{
+    color:maroon;
+
+}
+h1{
+    font-family: "Adobe 黑体 Std R";
+    color:gray;
+    text-decoration:underline;
+}
+h2{
+    font-family: "Adobe 黑体 Std R";
+    color:gray;
+    border-bottom:2px solid blue;
+}
