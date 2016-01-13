@@ -1,0 +1,101 @@
+body{
+    background-color:#b5a789;
+    font-family:Georgia, "times new roman", times, serif;
+    font-size:small;
+
+}
+
+header{
+    background-color:#675c47;
+
+    height:108px;
+}
+
+#award{
+    position:absolute;
+    top:30px;
+    left:368px;
+}
+header img#headerslogan{
+    float:right;
+}
+div#tablecontainer{
+    display: table;
+    border-spacing:10px;
+}
+
+div#tablerow{
+    display:table-row;
+}
+
+section#drinks{
+    display:table-cell;
+    background:#efe5d0;
+    width:20%;
+    padding:15px;
+    vertical-align: top;
+
+
+}
+
+section#main,section#blog{
+     display:table-cell;
+     background:#efe5d0  url(images/background.gif) top left;
+
+     padding:15px;
+     font-size:105%;
+     vertical-align: top;
+
+
+ }
+aside{
+    display:table-cell;
+    background:#efe5d0  url(images/background.gif) bottom right;
+    padding:15px;
+    font-size:105%;
+    vertical-align: top;
+
+}
+
+
+footer{
+    background:#675c47;
+    color:#efe5d0;
+    text-align:center;
+    padding:15px;
+
+    font-size:90%;
+
+}
+
+#coupon{
+    position:fixed;
+    top:200px;
+    left:-90px;
+}
+#coupon a,img{
+    border:none;
+}
+
+h1 {
+    font-size:        120%;
+    color:            #954b4b;
+}
+
+.slogan { color: #954b4b; }
+.beanheading {
+    text-align:       center;
+    line-height:      1.8em;
+}
+
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+}
+
+a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+}
