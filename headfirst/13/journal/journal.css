@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+    url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+body {
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:       small;
+}
+h1, h2 {
+    color:           #cc6600;
+    border-bottom:   thin dotted #888888;
+}
+h1 {
+    font-family:     "Emblema One", sans-serif;
+    font-size:       220%;
+}
+h2 {
+    font-size:       130%;
+    font-weight:     normal;
+}
+blockquote {
+    font-style:      italic;
+}
+table{
+    margin:0 20px;
+    border:thin solid black;
+    caption-side: bottom;
+    border-collapse:collapse;
+}
+th,td{
+    padding:5px;
+    border:thin dotted gray;
+
+}
+caption{
+    font-style:italic;
+    padding-top:8px;
+}
+td.date,td.temperature,td.diner{
+    text-align:center;
+}
+td.altitude,td.population{
+    text-align:right;
+}
+tr:nth-child(odd){
+    background-color:#fcba7a;
+}
+th{
+    background-color:#cc6600;
+}
+/*tr.cellcolor{
+    background-color:#fcba7a;
+}*/
+.nestedtable{
+    background-color:white;
+}
+li{
+    list-style-image:url(images/backpack.gif);
+    padding-top:5px;
+    margin-left:20px;
+    list-style-position:outside;
+}

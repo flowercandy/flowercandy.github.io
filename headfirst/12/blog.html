@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Startbuzz Coffee</title>
-    <link type="text/css"rel="stylesheet"href="../11/starbuzz%20table/starbuzz.css">
+    <meta charset="utf-8">
+    <title>Starbuzz Coffee - Blog</title>
+    <link rel="stylesheet" type="text/css" href="starbuzz.css">
 </head>
 
 <body>
-<header>
+<header class="top">
     <img id="headerLogo"
-         src="images/headerLogo.gif" alt="Starbuzz Coffee logo image">
+         src="images/headerLogo.gif" alt="Starbuzz Coffee header logo image">
     <img id="headerSlogan"
          src="images/headerSlogan.gif" alt="Providing all the caffeine you need to power your life.">
 </header>
 
-<div id="award">
-    <img src="images/award.gif"
-         alt="Roaster of the Year award">
-</div>
-
+<nav>
+<ul>
+    <li><a href="index-xiugai.html">HOME</a></li>
+    <li class="selected"><a href="blog.html">BLOG</a></li>
+    <li><a href="#">INVENTIONS</a></li>
+    <li><a href="#">RECIPES</a></li>
+    <li><a href="#">LOCATIONS</a></li>
+</ul>
+</nav>
 <div id="tableContainer">
     <div id="tableRow">
+
         <section id="drinks">
             <h1>BEVERAGES</h1>
             <p>House Blend, $1.49</p>
@@ -39,8 +44,28 @@
             <p>Chai Chiller, $2.99</p>
             <p>Black Brain Brew, $2.99</p>
         </section>
-        
+
         <section id="blog">
+            <article>
+                <header>
+                    <h1>Starbuzz launches... Tweet Sip</h1>
+                    <time datetime="2012-05-03">5/3/2012</time>
+                </header>
+                <p>
+                    As promised, today I'm proud to announce that Starbuzz
+                    Coffee is launching the Tweet Sip cup, a special Starbuzz
+                    Coffee cup that tweets each time you take a sip! Check out
+                    my video of our new invention.
+                </p>
+                <video controls autoplay loop width="520" height="300" >
+                    <source src="video/tweetsip.webm">
+                    <source src="video/tweetsip.mp4">
+                    <source src="video/tweetsip.ogv">
+                    <p>Sorry, your browser does not support the video element</p>
+                </video>
+
+                </video>
+            </article>
             <article>
                 <header>
                     <h1>Starbuzz meets social media</h1>
@@ -135,15 +160,10 @@
                 enter your order, and behind the scenes, your coffee is roasted, ground
                 (if you want), packaged, and shipped to your door.
             </p>
-        </aside> <!-- aside -->
+        </aside>
+
     </div> <!-- tableRow -->
 </div> <!-- tableContainer -->
-
-<div id="coupon">
-    <a href="freecoffee.html" title="Click here to get your free coffee">
-        <img src="images/ticket.gif" alt="Starbuzz coupon ticket">
-    </a>
-</div>
 
 <footer>
     &copy; 2012, Starbuzz Coffee
