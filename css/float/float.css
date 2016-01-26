@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#div{
+    width:1060px;
+    height:1700px;
+    margin: 20px auto;
+    background-color: orange;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    font-family: serif;
+}
+ul{
+    width:500px;
+    margin: 10px;
+    float:left;
+
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+
+}
