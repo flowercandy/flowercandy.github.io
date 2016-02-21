@@ -270,12 +270,16 @@ a:hover{
 .col1{
     margin-top: 220px;
 }
-.col1 h2,
+.col1 h2{
+    width: 30px;
+    margin: 0;
+    border-right: solid 4px rgb(0,255,0);
+}
 .row1 h2,
 .row2 h2{
     width: 30px;
     margin: 0;
-    border-right: solid 4px rgb(0,255,0);
+    border-right: solid 4px white;
 }
 .col2{
     margin-left: 80px;
@@ -344,4 +348,87 @@ table tr td:first-child{
 #about{
     background-color: rgb(180,255,180);
     color: #3c3c3c;
+}
+#about .rows{
+    height: 540px;
+    overflow: hidden;
+}
+.row.row1 h2{
+    width: 30px;
+    margin: 0;
+    border-right: solid 4px white;
+
+}
+.rows h2,
+.rows section{
+    float: left;
+}
+.rows section{
+    margin-left: 40px;
+    min-width: 260px;
+}
+#about .row1,
+#about .row2{
+    height: 270px;
+}
+
+.row1 h2{
+    margin-top: 80px;
+}
+.row2 h2{
+    margin-top: 60px;
+}
+.rows section h3{
+    border-color: white;
+
+}
+
+/* page contact */
+#contact{
+    background-color: #EEE;
+    color:#3c3c3c;
+}
+#contact h3,
+#contact ul{
+    width: 300px;
+    border: solid 4px #3c3c3c;
+    line-height: 50px;
+}
+#contact h3{
+    height: 50px;
+    margin: 150px auto 15px;
+    text-align: center;
+}
+#contact ul{
+    height: 206px;
+    margin: 0 auto;
+    padding: 0;
+}
+#contact ul li{
+    list-style: none;
+    border-top: solid 2px #3c3c3c;
+    font-size: 18px;
+    padding-left: 50px;
+}
+#contact ul li.weibo{
+    background-position: 10px -35px;
+}
+#contact ul li.github{
+    background-position: 10px -85px;
+}
+#contact ul li.email{
+    background-position: 10px -135px;
+}
+#contact ul li.phone{
+    background-position: 10px -185px;
+}
+#contact ul li:first-child{
+    border: 0;
+}
+#contact ul li a{
+    color: green;
+    text-decoration: none;
+}
+#contact ul li a:hover{
+    color: blue;
 }
