@@ -58,19 +58,17 @@ nav ul a{
     padding: 0 10px;
     text-decoration: none;
     color:rgb(200,255,200);
-    background-color: red;
+    background-color: rgb(0,255,0);
 }
 nav ul a[href="#skill"]{
-    background-color:orange;
+    background-color:rgb(50,255,50);
 }
 nav ul a[href="#about"]{
-    background-color: yellow;
+    background-color:rgb(100,255,100);
 }
-nav ul a[href="#works"]{
-    background-color:green;
-}
+
 nav ul a[href="#contact"]{
-    background-color: blue;
+    background-color: rgb(150,255,150);
 }
 nav ul a span{
     display: none;

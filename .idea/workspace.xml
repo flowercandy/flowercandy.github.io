@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a76fe5ac-cac1-4668-b48a-f0dd92bded42" name="Default" comment="使用idea第一次提交float">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianli/index.html" afterPath="$PROJECT_DIR$/jianli/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianli/main.css" afterPath="$PROJECT_DIR$/jianli/main.css" />
     </list>
     <ignored path="flowercandy.github.io.iws" />
@@ -28,18 +30,28 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianli/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.285715">
-              <caret line="433" column="1" selection-start-line="433" selection-start-column="1" selection-end-line="433" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62456745">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianli/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13148789">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state vertical-scroll-proportion="-15.214286">
+              <caret line="218" column="9" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -88,7 +100,6 @@
         <option value="$PROJECT_DIR$/headfirst/5/html/seattle_classic.html" />
         <option value="$PROJECT_DIR$/headfirst/5/html/seattle_shuffle.html" />
         <option value="$PROJECT_DIR$/headfirst/5/html/seattle_downtown.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/headfirst/5/5.2.html" />
         <option value="$PROJECT_DIR$/headfirst/3/css/trip.coffee" />
         <option value="$PROJECT_DIR$/headfirst/3/css/trip.css" />
@@ -129,10 +140,11 @@
         <option value="$PROJECT_DIR$/jianli/font.css" />
         <option value="$PROJECT_DIR$/jianli/js/h.js" />
         <option value="$PROJECT_DIR$/jianli/js/main.js" />
-        <option value="$PROJECT_DIR$/jianli/index.html" />
         <option value="$PROJECT_DIR$/jianli 1/index.html" />
         <option value="$PROJECT_DIR$/jianli 1/main.css" />
+        <option value="$PROJECT_DIR$/jianli/index.html" />
         <option value="$PROJECT_DIR$/jianli/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -721,7 +733,7 @@
       <workItem from="1455956336959" duration="5459000" />
       <workItem from="1455978358751" duration="2116000" />
       <workItem from="1456019294138" duration="2751000" />
-      <workItem from="1456059800750" duration="3275000" />
+      <workItem from="1456059800750" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="使用idea第一次提交float">
       <created>1453818452339</created>
@@ -739,10 +751,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136074000" />
+    <option name="totallyTimeSpent" value="137232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1081,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2301038">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flowercandy.github.io.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1100,18 +1105,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianli/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.285715">
-          <caret line="433" column="1" selection-start-line="433" selection-start-column="1" selection-end-line="433" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jianli/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13148789">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="-15.214286">
+          <caret line="218" column="9" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1126,6 +1123,22 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#4;n#table#1;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#td#1;n#tr#5;n#table#1;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianli/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62456745">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
