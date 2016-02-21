@@ -261,8 +261,87 @@ a:hover{
 #skill{
     color: #3c3c3c;
 }
+
 .col1,
 .col2,
 .col3{
     float: left;
+}
+.col1{
+    margin-top: 220px;
+}
+.col1 h2,
+.row1 h2,
+.row2 h2{
+    width: 30px;
+    margin: 0;
+    border-right: solid 4px rgb(0,255,0);
+}
+.col2{
+    margin-left: 80px;
+}
+table{
+    border-spacing: 0;
+}
+table tr th{
+    min-width: 70px;
+    text-align: center;
+    color:rgb(0,255,0);
+}
+table tr th,table tr td{
+    padding: 3px 0;
+    line-height: 20px;
+}
+table tr td:first-child{
+    text-align: right;
+    padding-right: 5px;
+}
+
+#skill td[colspan="4"] div{
+    width: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s 0.5s;
+    -moz-transition: all 1s 0.5s;
+    -ms-transition: all 1s 0.5s;
+    -o-transition: all 1s 0.5s;
+    transition: all 1s 0.5s;
+}
+
+#skill td[colspan="4"] div span{
+    display: inline-block;
+    height: 16px;
+    margin-top: 5px;
+    background-color: #99F;
+}
+
+#skill.open td[colspan="4"] div{
+    width: 100%;
+}
+
+.col3{
+    height: 540px;
+    overflow: hidden;
+    margin-left: 80px;
+}
+.cols section h3,
+.rows section h3{
+    font-size: 18px;
+    line-height: 20px;
+    margin: 24px 0 14px;
+    padding-left: 5px;
+    border-left: solid 4px rgb(0,255,0);
+}
+.col3 section:first-child h3{
+    margin-top: 0;
+}
+.cols section p,
+.rows section p{
+    font-size: 13px;
+    line-height: 16px;
+    margin: 10px 0;
+}
+/* page about */
+#about{
+    background-color: rgb(180,255,180);
+    color: #3c3c3c;
 }
