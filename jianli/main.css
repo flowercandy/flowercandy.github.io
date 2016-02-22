@@ -212,7 +212,7 @@ body.open #cover .content{
     color: #3d3d3d;
 }
 body.open #home{
-    background-color:rgb(180,255,180);
+    background-color:rgb(180,255,180);/*home的背景色*/
 }
 body.open #home #info1,
 body.open #home #info2,
@@ -273,12 +273,7 @@ a:hover{
     margin: 0;
     border-right: solid 4px rgb(0,255,0);
 }
-.row1 h2,
-.row2 h2{
-    width: 30px;
-    margin: 0;
-    border-right: solid 4px white;
-}
+
 .col2{
     margin-left: 80px;
 }
@@ -325,8 +320,7 @@ table tr td:first-child{
     overflow: hidden;
     margin-left: 80px;
 }
-.cols section h3,
-.rows section h3{
+.cols section h3{
     font-size: 18px;
     line-height: 20px;
     margin: 24px 0 14px;
@@ -336,52 +330,54 @@ table tr td:first-child{
 .col3 section:first-child h3{
     margin-top: 0;
 }
-.cols section p,
-.rows section p{
+.cols section p{
     font-size: 13px;
     line-height: 16px;
     margin: 10px 0;
 }
 /* page about */
 #about{
-    background-color: rgb(180,255,180);
+    background-color: rgb(180,255,180);/*about的背景色*/
     color: #3c3c3c;
 }
 #about .rows{
-    height: 540px;
+    height: 700px;
     overflow: hidden;
 }
-.row.row1 h2{
-    width: 30px;
-    margin: 0;
-    border-right: solid 4px white;
 
-}
-.rows h2,
-.rows section{
-    float: left;
-}
-.rows section{
-    margin-left: 40px;
-    min-width: 260px;
-}
-#about .row1,
-#about .row2{
-    height: 270px;
-}
 
-.row1 h2{
-    margin-top: 80px;
-}
+
+.row1 h2,
 .row2 h2{
-    margin-top: 60px;
+
+    border-left:4px solid white;
+    margin-left:450px;
+    margin-top:20px;
+    margin-bottom:10px;
 }
 .rows section h3{
-    border-color: white;
-
+    border-left:4px solid white;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.row2 section.left{
+    float: left;
+}
+.row2 section.right{
+    float: right;
+}
+.row1.float-clear,
+.row2.float-clear{
+    clear: both;
+}
+.rows section li{
+    font-size: 13px;
+    line-height: 16px;
+    margin: 10px 0;
 }
 
 /* page contact */
+
 #contact{
     background-color: #EEE;
     color:#3c3c3c;
