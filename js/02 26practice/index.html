@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width:200px;
+            height: 200px;
+            background: red;
+
+        }
+    </style>
+    <script>
+       /* function togreen(){
+            var odiv=document.getElementById("div1");
+            odiv.style.background='green';
+        }
+        function toyellow(){
+            var odiv=document.getElementById("div1");
+            odiv.style.background='yellow';
+        }
+        function toblack(){
+            var odiv=document.getElementById("div1");
+            odiv.style.background='black';
+        }*/
+        function setcolor(color){
+            var odiv=document.getElementById('div1');
+            odiv.style.background=color;
+
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="变绿" onclick="setcolor('green')">
+<input type="button" value="变黄" onclick="setcolor('yellow')">
+<input type="button" value="变黑" onclick="setcolor('black')">
+<div id="div1" ></div>
+
+</body>
+</html>

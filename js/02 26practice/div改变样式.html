@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width:200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+    <script>
+        /*
+        function towidth(){
+            var odiv=document.getElementById('div1');
+            odiv.style.width='400px';
+
+        }
+        function toheight(){
+            var odiv=document.getElementById('div1');
+            odiv.style.height='400px';
+
+        }
+        function togreen(){
+            var odiv=document.getElementById('div1');
+            odiv.style.background='green';
+
+        }*/
+        function tostyle(name,value){
+            var odiv=document.getElementById('div1');
+            odiv.style[name]=value;
+
+
+        }
+    </script>
+</head>
+
+<body>
+<input type="button"value="变宽" onclick="tostyle('width','400px')">
+<input type="button"value="变高" onclick="tostyle('height','400px')">
+<input type="button"value="变绿" onclick="tostyle('background','green')">
+<div id="div1">
+
+</div>
+</body>
+</html>
